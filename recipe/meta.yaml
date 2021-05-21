@@ -1,5 +1,5 @@
 {% set name = "pytray" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytray-{{ version }}.tar.gz
-  sha256: 42c57fb712e259b617ec128cc0d0fa26328b804fa5b36e93d4a87773fbf7261b
+  sha256: 1636954425e290fb0051361db95d8ba56b7471abb96510fdcaac049ff540b5c9
 
 build:
   number: 0
