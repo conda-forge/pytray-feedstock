@@ -18,11 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.7
   run:
-    - async_generator
     - deprecation
-    - python >=3.5
+    - python >=3.7
 
 test:
   imports:
